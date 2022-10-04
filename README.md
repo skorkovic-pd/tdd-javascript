@@ -17,12 +17,11 @@ npm install jest --D
 ```
 Update the package.json test script
 ```json
-// package.json
 
 {
    ...other package.json stuff
    "scripts": {   
-     "test": "jest" // this will run jest with "npm run test"
+     "test": "jest"
    }
 }
 ```
