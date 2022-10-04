@@ -135,7 +135,17 @@ Run tests again. Output should be:
   √ addition of 2 and 3 to equal 5 (2 ms)
 ```
 
-#### 2. [Exercise] Using TDD implement functions for 
+#### 2. [Exercise] Using TDD implement other functions for:
+
+* Subtracting two numbers
+* Multiplication of two numbers
+* Dividing two numbers
+
+#### 3. [Exercise] Write new tests that use already implemented functions, but also handle edge cases and possible issues:
+* Add handling error that can occur when function is called with only 1 parameter, or without any parameters (all currently existing functions)
+* Add handling error that can occur when function for dividing is called with second parameter 0 (when you try to divide by 0)
+
+
 
 
 
