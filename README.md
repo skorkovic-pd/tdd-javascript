@@ -148,9 +148,9 @@ Run tests again. Output should be:
 * Add handling error that will occur when one of multiplication parameters is string
 
 #### 4. [Exercise] Using TDD implement function (you can use more private functions to separate logic) for analyze an array of numbers.
- Function takes an array of numbers, analyze it, and return object that has information about number of elements, average value of elements, maximum and minimum value.
+ Function takes an array of numbers, analyze it, and return object that has information about number of elements, average value of elements, maximum and minimum value. Implement handling error that function throw if one of elements is string, or undefined.
 
-#### 4. [Exercise] For separated technologies:
+#### 5. [Exercise] For separated technologies:
 ##### a) .NET
 Use XUnit with Console Application to implement same methods as above
 ##### b) Java
