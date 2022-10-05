@@ -19,7 +19,6 @@ Update the package.json test script
 ```json
 
 {
-   ...other package.json stuff
    "scripts": {   
      "test": "jest"
    }
