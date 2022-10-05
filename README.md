@@ -150,7 +150,11 @@ Run tests again. Output should be:
 #### 4. [Exercise] Using TDD implement function (you can use more private functions to separate logic) for analyze an array of numbers.
  Function takes an array of numbers, analyze it, and return object that has information about number of elements, average value of elements, maximum and minimum value. Implement handling error that function throw if one of elements is string, or undefined.
 
-#### 5. [Exercise] For separated technologies:
+#### 5. [Exercise] Mock API
+Use free [API](https://api.nationalize.io/?name=nathaniel) to check data that you expect to receive from server. Then mock this API (investigate mocking with JEST).
+You want to create functions for adding new entry to array that can be received from server (now is mocked) and to remove entry from that array. Do that using TDD!
+
+#### 6. [Exercise] For separated technologies:
 ##### a) .NET
 Use XUnit with Console Application to implement same methods as above
 ##### b) Java
