@@ -140,16 +140,33 @@ Run tests again. Output should be:
 * Subtracting two numbers
 * Multiplication of two numbers
 * Dividing two numbers
+* Addition a few numbers in one call (call addCalculator with more than 2 arguments and get correct result)
 
 #### 3. [Exercise] Write new tests that use already implemented functions, but also handle edge cases and possible issues:
-* Add handling error that can occur when function is called with only 1 parameter, or without any parameters (all currently existing functions)
-* Add handling error that can occur when function for dividing is called with second parameter 0 (when you try to divide by 0)
+* Add handling error that will occur when function is called with only 1 parameter, or without any parameters (all currently existing functions)
+* Add handling error that will occur when function for dividing is called with second parameter 0 (when you try to divide by 0)
+* Add handling error that will occur when one of multiplication parameters is string
 
+#### 4. [Exercise] Using TDD implement function (you can use more private functions to separate logic) for analyze an array of numbers.
+ Function takes an array of numbers, analyze it, and return object that has information about number of elements, average value of elements, maximum and minimum value.
 
-
+#### 4. [Exercise] For separated technologies:
+##### a) .NET
+Use XUnit with Console Application to implement same methods as above
+##### b) Java
+Use JUnit with Console Application to implement same methods as above
+##### c) Frontend
+Create page for calculator and use Cypress to create End-to-End tests
 
 
 ## Important commands
+
+Define test
+```javascript
+test('test-name', () => {
+   //body of test (with assertion)
+});
+```
 
 Run all tests:
 ```bash
@@ -159,14 +176,6 @@ Run tests from specific file:
 ```bash
 npm run test [file-path]
 ```
-
-Define test
-```javascript
-test('test-name', () => {
-   //body of test (with assertion)
-});
-```
-
 
 
 
