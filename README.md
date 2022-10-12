@@ -190,8 +190,3 @@ Run tests from specific file:
 ```bash
 npm run test [file-path]
 ```
-
-
-
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
