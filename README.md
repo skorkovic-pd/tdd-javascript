@@ -154,7 +154,15 @@ Use free [API](https://api.nationalize.io/?name=nathaniel) to check data that yo
 You want to create functions for adding new entry to array that can be received from server (now is mocked) and to remove entry from that array. Do that using TDD!
 
 #### 6. [Bonus Exercise] Machine for buying snacks
-Using TDD create sofware for Machine for buying snacks. Function *getChangeVendingMachine* accepts two parameters: *totalPrice* and *paidAmount*. Array that is returned from function consists coins that machine must return (change value). Let's say there are coins [1, 2, 5, 10, 20, 50, 100]. You have to handle edge cases, implement error handling and write many tests to be sure that your machine works as expected.
+Using TDD create sofware for Machine for buying snacks. Function *getChangeVendingMachine* accepts two parameters: *totalPrice* and *paidAmount*. Array that is returned from function consists coins that machine must return (change value). You have to handle edge cases, implement error handling and write many tests to be sure that your machine works as expected. 
+
+Let's say there are coins [1, 2, 5, 10, 20, 50, 100, 200]. 
+
+Example:
+* totalPrice = 202
+* paidAmount = 400
+* difference = 198
+* change coins = [100, 50, 20, 20, 5, 2, 1]
 
 #### 7. [Exercise] For separated technologies:
 ##### a) .NET
