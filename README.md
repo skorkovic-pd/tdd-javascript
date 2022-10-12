@@ -153,7 +153,10 @@ Run tests again. Output should be:
 Use free [API](https://api.nationalize.io/?name=nathaniel) to check data that you expect to receive from server. Then mock this API (investigate mocking with JEST).
 You want to create functions for adding new entry to array that can be received from server (now is mocked) and to remove entry from that array. Do that using TDD!
 
-#### 6. [Exercise] For separated technologies:
+#### 6. [Bonus Exercise] Machine for buying snacks
+Using TDD create sofware for Machine for buying snacks. Function *getChangeVendingMachine* accepts two parameters: *totalPrice* and *paidAmount*. Array that is returned from function consists coins that machine must return (change value). Let's say there are coins [1, 2, 5, 10, 20, 50, 100]. You have to handle edge cases, implement error handling and write many tests to be sure that your machine works as expected.
+
+#### 7. [Exercise] For separated technologies:
 ##### a) .NET
 Use XUnit with Console Application to implement same methods as above
 ##### b) Java
